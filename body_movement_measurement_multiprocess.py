@@ -147,7 +147,7 @@ def data_receiver(count, data_array, time_array):
 # サブプロセス：データのフィルタリング処理
 def data_filtering(count, data_array, time_array):
     #フィルタ用
-    n = 128                     #フィルタ区間のデータ個数
+    n = 256                     #フィルタ区間のデータ個数
     lowcut_heartbeat = 0.77     #カットオフ周波数[Hz]（心拍）
     highcut_heartbeat = 2.0
     lowcut_respiration = 0.1    #カットオフ周波数[Hz]（呼吸）

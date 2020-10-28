@@ -11,7 +11,7 @@ def lr_1(x, y):
     return a
 
 # ファイル読込
-limit_angle = 92.57456
+limit_angle = 146.9053
 #limit_angle_gyro = -39.15
 data = np.loadtxt('C:/Users/inaga/OneDrive/デスクトップ/exe/csv/shoulder/test.csv', delimiter=',')
 N=len(data)                     #リストの長さ
