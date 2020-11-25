@@ -61,7 +61,7 @@ if __name__ == "__main__":
 data_list_csv=np.reshape(data_list,(num,4)).tolist()    #2次元配列に変換　※.tolist()で二次元配列になる
 
 #---csv書き出し--#
-with open('C:/Users/inaga/python_files/csv/hoge.csv', 'w', encoding="Shift_jis") as f:
+with open('C:/Users/inaga/python_files/csv/2.csv', 'w', encoding="Shift_jis") as f:
     csvWriter = csv.writer(f, lineterminator='\n')  
     csvWriter.writerows(data_list_csv)          #rowsを使うことで二次元配列のまま書き出し
         
